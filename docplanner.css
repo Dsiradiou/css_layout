@@ -1,0 +1,267 @@
+html{
+    font-weight: 100;
+    font-family: "Roboto",Arial,sans-serif;
+    font-size: .875em;
+}
+
+h2{
+    color: rgb(0, 195, 165);
+    text-align: center;
+}
+h3{
+    color: rgb(0, 195, 165);
+}
+.grandline{
+    color: rgb(0, 195, 165);
+    text-decoration: none;
+}
+.navbar{
+    display: flex;
+    position: fixed;
+    justify-content: space-around;
+    width: 100%;
+    z-index: 9000;
+    padding-top: 0px;
+    background-color: white;
+}
+.liens{
+    display: flex;
+    margin-top: 45px;
+    justify-content: space-around ;
+    gap: 20px;
+}
+a{
+    text-decoration: none;
+    
+}
+.pres{
+    padding-top: 100px;
+}
+.logo{
+    margin-top: 35px;
+    margin-left: 700px;
+}
+.grandline{
+    margin-left: 400px;
+}
+.intro{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    text-decoration: none;
+}
+.for{
+    display: grid;
+    justify-content: center;
+    justify-self: stretch;
+    grid-template-columns: 300px  300px  300px;
+    grid-template-rows: 400px;
+    color: white;
+    gap: 20px;
+}
+#p3{
+    border-radius: 10px;
+    background-color: rgb(0, 195, 165);
+    font-size: 25px;
+    text-justify: distribute;
+}
+#p4{
+    border-radius: 10px;
+    background-color: #3D83DF;
+    font-size: 25px;
+}
+#p5{
+    border-radius: 10px;
+    background-color: #1B2734;
+    font-size: 25px;
+}
+.text1{
+    color: rgb(0, 195, 165);
+    font-size: 25px;
+}
+.fin1{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.liens2{
+    display: grid;
+    grid-template-columns: 140px 140px 140px 140px;
+    grid-template-rows: 100px 100px 100px ;
+    align-items: center;
+    justify-self: stretch;
+    
+}
+.stats{
+    background-color:#DBF6F5;
+    display: flex;
+    justify-content: space-around;
+    height: 550px;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+.stat{
+    display: grid;
+    grid-template-columns: 250px 250px;
+    grid-template-rows: 250px 250px;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+.stat-p6{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    padding: 20px;   
+}
+#p6{
+    margin-top: 20px;
+    border: white solid;
+    border-radius: 5px;
+    background-color: white;
+    text-align: center;
+}
+.stat-p7{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    padding: 20px;
+}
+#p7{
+    margin-top: 25px;
+    border: white solid;
+    border-radius: 5px;
+    background-color: white;
+    text-align: center;
+}
+.stat-p8{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    padding: 20px;
+}
+#p8{
+    border: white solid;
+    border-radius: 5px;
+    background-color: white;
+    text-align: center;
+}
+.stat-p9{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    padding: 20px;
+}
+#p9{
+    border: white solid;
+    border-radius: 5px;
+    background-color: white;
+    text-align: center;
+}
+.offices{
+    display: flex;
+    justify-content: center;
+}
+.countries{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 300px 300px 300px;
+    column-gap: 20px;
+    grid-template-rows: 300px 300px 300px 300px;
+    row-gap: 20px;
+    padding-right: 150px;
+    padding-left: 150px;
+    padding-top: 25px;
+    padding-bottom: 40px;
+    justify-content: center;
+}
+.join_us{
+    display: flex;
+    justify-content: center;
+}
+.op{
+    display: flex;
+    text-decoration: none white;
+    justify-content: center;
+    border-radius: 4px;
+    padding: 1.1666666667em 1.5em;
+    background: #3d83df;
+    font-weight: 700;
+    letter-spacing: .04em;
+    font-size: .75rem;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+#warsaw{
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+}
+#barcelona{
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+}
+#munich{
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    
+}
+#istanbul{
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+}
+#rome{
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+}
+#bologna{
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+}
+#curitiba{
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+}
+#rio{
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+}
+#mexico{
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+}
+#bogota{
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+.footlead{
+    position: relative;
+    text-align: center;
+}
+#p11{
+    display: flex;
+    justify-content: center;
+}
+#p12{
+    display: flex;
+    justify-content: center;
+}
